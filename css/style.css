@@ -591,7 +591,7 @@ body {
 
 @media (max-width: 376px) {
   .photo1 .svg1 {
-    transform: translate(-67%, -55%);
+    transform: scale(0.9) translate(-69%, -55%);
   }
 }
 
