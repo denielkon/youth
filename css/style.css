@@ -572,7 +572,26 @@ body {
   }
 
   .photo1 .svg1 {
-    transform: translate(-70%, -55%);
+    transform: translate(-75%, -55%);
+  }
+}
+
+@media (max-width: 405px) {
+  .secondBlock_top .top_label p {
+    padding: 11px 80px 11px 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .svg3 {
+    transform: scale(0.9);
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 365px) {
+  .secondBlock h2 {
+    font-size: 65px;
   }
 }
 @supports (-webkit-appearance:none){
@@ -652,6 +671,30 @@ body {
 }
 
  @media (max-width: 413px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media (max-width: 405px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media (max-width: 380px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media (max-width: 365px){
 
 @supports (-webkit-appearance:none){
 
