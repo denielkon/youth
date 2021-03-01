@@ -552,7 +552,7 @@ body {
 
 @media (max-width: 435px) {
   .photo1 .svg1 {
-    transform: translate(-70%, -45%);
+    transform: translate(-63%, -45%);
   }
 }
 
@@ -572,7 +572,7 @@ body {
   }
 
   .photo1 .svg1 {
-    transform: translate(-75%, -55%);
+    transform: translate(-63%, -55%);
   }
 }
 
@@ -585,7 +585,13 @@ body {
 @media (max-width: 380px) {
   .svg3 {
     transform: scale(0.9);
-    margin-right: 0px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 376px) {
+  .photo1 .svg1 {
+    transform: translate(-67%, -55%);
   }
 }
 
@@ -687,6 +693,14 @@ body {
 }
 
  @media (max-width: 380px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media (max-width: 376px){
 
 @supports (-webkit-appearance:none){
 
